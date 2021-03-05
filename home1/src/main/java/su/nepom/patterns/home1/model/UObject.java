@@ -1,6 +1,7 @@
 package su.nepom.patterns.home1.model;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * Интерфейс к универсальному игровому объекту
@@ -8,7 +9,7 @@ import java.util.List;
  * К примеру, если объект можно поворачивать, у него можно запросить Rotatable, а если перемещать - то Movable.
  */
 public interface UObject {
-    <T> T queryInterface(Class<T> cls);
+    <T> Optional<T> queryInterface(Class<T> cls);
 
     /**
      * Вспомогательный интерфейс, который реализуют классы-реализаторы интерфейсов-функций объекта.

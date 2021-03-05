@@ -4,6 +4,7 @@ import org.junit.Test;
 import su.nepom.patterns.home1.model.UObject;
 
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
@@ -34,9 +35,9 @@ public class UObjectImplTest {
 
         var obj = new UObjectImpl(impl1, impl2);
 
-        assertEquals(impl1, obj.queryInterface(Interface1.class));
-        assertEquals(impl1, obj.queryInterface(Interface2.class));
-        assertEquals(impl2, obj.queryInterface(Interface3.class));
-        assertNull(obj.queryInterface(Interface4.class));
+        assertEquals(Optional.of(impl1), obj.queryInterface(Interface1.class));
+        assertEquals(Optional.of(impl1), obj.queryInterface(Interface2.class));
+        assertEquals(Optional.of(impl2), obj.queryInterface(Interface3.class));
+        assertEquals(Optional.empty(), obj.queryInterface(Interface4.class));
     }
 }

@@ -7,9 +7,9 @@ import su.nepom.patterns.home1.model.UObject;
 import java.util.List;
 
 public class RotatableImpl implements RotatableManage, UObject.Part {
-    private int angle, angleVelocity;
+    private double angle, angleVelocity;
 
-    public RotatableImpl(int angle, int angleVelocity) {
+    public RotatableImpl(double angle, double angleVelocity) {
         this.angle = angle;
         this.angleVelocity = angleVelocity;
     }
@@ -20,22 +20,22 @@ public class RotatableImpl implements RotatableManage, UObject.Part {
     }
 
     @Override
-    public int getAngle() {
+    public double getAngle() {
         return angle;
     }
 
     @Override
-    public void setAngle(int angle) {
+    public void setAngle(double angle) {
         this.angle = angle;
     }
 
     @Override
-    public int getAngleVelocity() {
+    public double getAngleVelocity() {
         return angleVelocity;
     }
 
     @Override
-    public void setAngleVelocity(int angleVelocity) {
+    public void setAngleVelocity(double angleVelocity) {
         this.angleVelocity = angleVelocity;
     }
 }

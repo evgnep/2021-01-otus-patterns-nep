@@ -4,6 +4,7 @@ import su.nepom.patterns.home1.model.UObject;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 
 public class UObjectImpl implements UObject {
     private final Map<Class<?>, Object> impl = new HashMap<>();
@@ -16,7 +17,7 @@ public class UObjectImpl implements UObject {
 
     @SuppressWarnings("unchecked")
     @Override
-    public <T> T queryInterface(Class<T> cls) {
-        return (T)impl.get(cls);
+    public <T> Optional<T> queryInterface(Class<T> cls) {
+        return Optional.ofNullable((T)impl.get(cls));
     }
 }
