@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>su.nepom.home18</OriginalElement>
+  <nodes>
+    <node x="714.3588888888888" y="124.0">su.nepom.home18.sort.SorterInsertion</node>
+    <node x="394.5255555555555" y="364.0">su.nepom.home18.Main</node>
+    <node x="174.0" y="249.0">su.nepom.home18.ReadSortWrite</node>
+    <node x="726.8622222222223" y="238.0">su.nepom.home18.sort.FactoryInsertion</node>
+    <node x="530.8622222222223" y="238.0">su.nepom.home18.sort.FactorySelection</node>
+    <node x="19.583333333333258" y="124.0">su.nepom.home18.sort.SorterMerge</node>
+    <node x="518.3588888888888" y="124.0">su.nepom.home18.sort.SorterSelection</node>
+    <node x="0.0" y="238.0">su.nepom.home18.sort.FactoryMerge</node>
+    <node x="447.75333333333333" y="0.0">su.nepom.home18.sort.Sorter</node>
+    <node x="334.3588888888888" y="124.0">su.nepom.home18.sort.Factory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="su.nepom.home18.sort.SorterInsertion" target="su.nepom.home18.sort.Sorter">
+      <point x="0.0" y="-27.0" />
+      <point x="798.3588888888888" y="84.0" />
+      <point x="568.0033333333333" y="84.0" />
+      <point x="46.25" y="27.0" />
+    </edge>
+    <edge source="su.nepom.home18.sort.SorterSelection" target="su.nepom.home18.sort.Sorter">
+      <point x="0.0" y="-27.0" />
+      <point x="602.3588888888888" y="104.0" />
+      <point x="531.0033333333333" y="104.0" />
+      <point x="9.25" y="27.0" />
+    </edge>
+    <edge source="su.nepom.home18.sort.FactoryMerge" target="su.nepom.home18.sort.Factory">
+      <point x="51.33333333333334" y="-38.0" />
+      <point x="128.33333333333337" y="208.0" />
+      <point x="347.19222222222214" y="208.0" />
+      <point x="-64.16666666666669" y="27.0" />
+    </edge>
+    <edge source="su.nepom.home18.sort.FactorySelection" target="su.nepom.home18.sort.Factory">
+      <point x="-58.66666666666663" y="-38.0" />
+      <point x="560.1955555555555" y="208.0" />
+      <point x="449.8588888888888" y="208.0" />
+      <point x="38.5" y="27.0" />
+    </edge>
+    <edge source="su.nepom.home18.sort.FactoryInsertion" target="su.nepom.home18.sort.Factory">
+      <point x="-58.66666666666666" y="-38.0" />
+      <point x="756.1955555555555" y="198.0" />
+      <point x="475.52555555555557" y="198.0" />
+      <point x="64.16666666666674" y="27.0" />
+    </edge>
+    <edge source="su.nepom.home18.sort.SorterMerge" target="su.nepom.home18.sort.Sorter">
+      <point x="0.0" y="-27.0" />
+      <point x="93.58333333333326" y="84.0" />
+      <point x="475.50333333333333" y="84.0" />
+      <point x="-46.25" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="451.5" y="209.0" />
+  <SelectedNodes>
+    <node>su.nepom.home18.sort.SorterInsertion</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>Production</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
