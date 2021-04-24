@@ -1,0 +1,4 @@
+rootProject.name = 'home19'
+
+include('generator')
+include('summator')
