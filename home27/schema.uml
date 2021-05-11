@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>su.nepom</OriginalElement>
+  <nodes>
+    <node x="548.0" y="160.0">su.nepom.JsonFileHandler</node>
+    <node x="256.0" y="80.0">su.nepom.AbstractFileHandler</node>
+    <node x="180.0" y="160.0">su.nepom.TextFileHandler</node>
+    <node x="368.0" y="160.0">su.nepom.XmlFileHandler</node>
+    <node x="0.0" y="160.0">su.nepom.CsvFileHandler</node>
+    <node x="288.0" y="0.0">su.nepom.FileHandler</node>
+    <node x="0.0" y="235.0">su.nepom.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="su.nepom.TextFileHandler" target="su.nepom.AbstractFileHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="264.0" y="140.0" />
+      <point x="331.0" y="140.0" />
+      <point x="-25.0" y="15.0" />
+    </edge>
+    <edge source="su.nepom.AbstractFileHandler" target="su.nepom.FileHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="su.nepom.XmlFileHandler" target="su.nepom.AbstractFileHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="448.0" y="140.0" />
+      <point x="381.0" y="140.0" />
+      <point x="25.0" y="15.0" />
+    </edge>
+    <edge source="su.nepom.CsvFileHandler" target="su.nepom.AbstractFileHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="80.0" y="130.0" />
+      <point x="281.0" y="130.0" />
+      <point x="-75.0" y="15.0" />
+    </edge>
+    <edge source="su.nepom.JsonFileHandler" target="su.nepom.AbstractFileHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="632.0" y="130.0" />
+      <point x="431.0" y="130.0" />
+      <point x="75.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="358.0" y="132.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>Production</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
