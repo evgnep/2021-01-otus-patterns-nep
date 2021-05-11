@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>su.nepom</OriginalElement>
+  <nodes>
+    <node x="0.0" y="80.0">su.nepom.ReverseFibonacciIterator</node>
+    <node x="260.0" y="80.0">su.nepom.FibonacciIterator</node>
+    <node x="312.0" y="160.0">su.nepom.Main</node>
+    <node x="296.0" y="0.0">su.nepom.Iterator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="su.nepom.Main" target="su.nepom.FibonacciIterator">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="su.nepom.ReverseFibonacciIterator" target="su.nepom.Iterator">
+      <point x="0.0" y="-15.0" />
+      <point x="120.0" y="55.0" />
+      <point x="314.6666666666667" y="55.0" />
+      <point x="-37.333333333333314" y="15.0" />
+    </edge>
+    <edge source="su.nepom.FibonacciIterator" target="su.nepom.Iterator">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="su.nepom.Main" target="su.nepom.Iterator">
+      <point x="26.66666666666668" y="-15.0" />
+      <point x="378.66666666666663" y="135.0" />
+      <point x="454.5" y="135.0" />
+      <point x="454.5" y="55.0" />
+      <point x="389.33333333333326" y="55.0" />
+      <point x="37.33333333333331" y="15.0" />
+    </edge>
+    <edge source="su.nepom.Main" target="su.nepom.ReverseFibonacciIterator">
+      <point x="-26.666666666666686" y="-15.0" />
+      <point x="325.3333333333333" y="135.0" />
+      <point x="120.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="222.0" y="130.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>Production</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
